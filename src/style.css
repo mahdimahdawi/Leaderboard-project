@@ -48,7 +48,6 @@ li:nth-child(odd) {
   box-shadow: 1px 10px 13px 2px;
   margin: 10px;
   margin-left: -20px;
-
 }
 
 .recent {
@@ -65,7 +64,6 @@ li:nth-child(odd) {
 .page {
   display: flex;
   gap: 200px;
-  
 }
 
 .add {
