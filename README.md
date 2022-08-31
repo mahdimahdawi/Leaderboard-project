@@ -1,15 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# LeaderBoard
 
 > Description the project.
+- In this project can store the name and the score of a person and display as a list.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JavaScript
 
 ## Live Demo (if available)
 
@@ -29,6 +28,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ### Install
+- can sampily clone the project to local environment and run it.
 
 ### Usage
 
@@ -42,15 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mahdimahdawi](https://github.com/mahdimahdawi)
+- Twitter: [@mahdimahdawi](https://twitter.com/mahdimahdawi)
+- LinkedIn: [Mahdi Mahdawi](https://linkedin.com/feed)
 
 ## 🤝 Contributing
 
