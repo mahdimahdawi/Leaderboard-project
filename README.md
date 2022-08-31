@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Comming Soon ...]
+Comming Soon ...
 
 
 To get a local copy up and running follow these simple example steps.
