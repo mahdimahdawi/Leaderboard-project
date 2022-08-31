@@ -32,7 +32,7 @@ const storeScore = (e) => {
 
   const newScore = new Score(inputName, inputScore);
 
-  if(inputName !== '' && inputScore !== '') {
+  if (inputName !== '' && inputScore !== '') {
     existScore.push(newScore);
     localStorage.setItem('scores', JSON.stringify(existScore));
     document.querySelector('.name').value = '';
@@ -40,7 +40,5 @@ const storeScore = (e) => {
     DispalyScore();
   }
 };
-
-
 document.querySelector('.submit-btn').addEventListener('click', storeScore);
 document.querySelector('.refresh-btn').addEventListener('click', DispalyScore);
