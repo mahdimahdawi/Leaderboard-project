@@ -1,0 +1,38 @@
+{
+  "name": "leaderboard-project",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdimahdawi/Leaderboard-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahdimahdawi/Leaderboard-project/issues"
+  },
+  "homepage": "https://github.com/mahdimahdawi/Leaderboard-project#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "hint": "^7.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-bundle-analyzer": "^4.6.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "lodash": "^4.17.21"
+  }
+}

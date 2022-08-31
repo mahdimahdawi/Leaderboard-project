@@ -1,0 +1,88 @@
+*,
+html,
+body,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li:nth-child(odd) {
+  background-color: aquamarine;
+}
+
+.main-page {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.title {
+  letter-spacing: 8px;
+  padding-bottom: 50px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+.list {
+  width: 230px;
+  height: 300px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-list {
+  border: 4px solid;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 1px 10px 13px 2px;
+  margin: 10px;
+  margin-left: -20px;
+
+}
+
+.recent {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.refresh-btn {
+  padding: 10px;
+  box-shadow: 1px 1px 5px 4px;
+}
+
+.page {
+  display: flex;
+  gap: 200px;
+  
+}
+
+.add {
+  margin-top: 50px;
+}
+
+.add-title {
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+
+.input {
+  border: 3px solid black;
+}
+
+.submit-btn {
+  float: right;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 3px;
+}
