@@ -1,25 +1,18 @@
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2ghjk/scores/';
-const playerName = document.querySelector('.name');
-const playerScore = document.querySelector('.score');
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fghj/scores/';
 
-const SubmitData = async () => {
-  const nameValue = playerName.value;
-  const scoreValue = playerScore.value;
-
-  if (nameValue !== '' || scoreValue !== '') {
+const SubmitData = async (obj) => {
+  if (obj.nameValue !== '' || obj.scoreValue !== '') {
     await fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/JSON',
       },
       body: JSON.stringify({
-        user: nameValue,
-        score: scoreValue,
+        user: obj.nameValue,
+        score: obj.scoreValue,
       }),
     });
   }
-  playerName.value = '';
-  playerScore.value = '';
 };
 
 const DispalyScore = async () => {
@@ -29,7 +22,6 @@ const DispalyScore = async () => {
   const response = await fetch(url);
   const list = await response.json();
   const ArrList = list.result;
-  ulTag.textContent = '';
   ArrList.forEach((scores) => {
     const listItem = document.createElement('li');
     listItem.innerHTML = `${scores.user} : ${scores.score}`;
