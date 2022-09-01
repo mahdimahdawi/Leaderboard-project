@@ -10,11 +10,6 @@ submitForm.addEventListener('submit', (e) => {
   SubmitData();
 });
 
-// submitBtn.addEventListener('click', (e) => {
-//   e.preventDefault();
-//   SubmitData();
-// });
-
 refreshBtn.addEventListener('click', () => {
   DispalyScore();
 });

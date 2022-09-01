@@ -1,4 +1,4 @@
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2zxcv/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2ghjk/scores/';
 const playerName = document.querySelector('.name');
 const playerScore = document.querySelector('.score');
 
@@ -29,6 +29,7 @@ const DispalyScore = async () => {
   const response = await fetch(url);
   const list = await response.json();
   const ArrList = list.result;
+  ulTag.textContent = '';
   ArrList.forEach((scores) => {
     const listItem = document.createElement('li');
     listItem.innerHTML = `${scores.user} : ${scores.score}`;
