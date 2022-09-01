@@ -12,7 +12,7 @@ submitForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const nameValue = playerName.value;
   const scoreValue = playerScore.value;
-  SubmitData( {nameValue, scoreValue} );
+  SubmitData({ nameValue, scoreValue });
   playerName.value = '';
   playerScore.value = '';
 });

@@ -1,7 +1,6 @@
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fghj/scores/';
 
 const SubmitData = async (obj) => {
- 
   if (obj.nameValue !== '' || obj.scoreValue !== '') {
     await fetch(url, {
       method: 'POST',
