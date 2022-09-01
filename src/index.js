@@ -1,6 +1,7 @@
 import './style.css';
-import { SubmitData, DispalyScore } from './submit-display';
-const submitBtn = document.querySelector('.submit-btn');
+
+import { SubmitData, DispalyScore } from './submit-display.js';
+
 const refreshBtn = document.querySelector('.refresh-btn');
 const submitForm = document.querySelector('.add-score');
 

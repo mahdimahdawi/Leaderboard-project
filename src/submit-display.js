@@ -33,9 +33,8 @@ const DispalyScore = async () => {
     const listItem = document.createElement('li');
     listItem.innerHTML = `${scores.user} : ${scores.score}`;
     ulTag.appendChild(listItem);
-  })
+  });
   scoreList.appendChild(ulTag);
 };
 
 export { SubmitData, DispalyScore };
-
